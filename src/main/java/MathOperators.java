@@ -51,6 +51,7 @@ public class MathOperators {
         long product = intValue * longValue;   // Результат будет long
 
         // Вывод результатов
+        System.out.println("\nКомбинация различных типов данных:");
         System.out.println("intValue + doubleValue = " + sum1);
         System.out.println("intValue + floatValue = " + sum2);
         System.out.println("doubleValue + longValue = " + sum3);
